@@ -1,11 +1,11 @@
-##Simple logging and plotting of data for debugging/profiling timing in Unity apps.##
+## Simple logging and plotting of data for debugging/profiling timing in Unity apps. ##
 
 You can use this as a starting point for getting more diagnostics out of your app, but for basic timing I'd still stuggest using the [Unity built-in profiler](https://docs.unity3d.com/ScriptReference/Profiling.Profiler.BeginSample.html).
 
-###Python dependencies:###
+### Python dependencies: ###
 pip install matplotlib
 
-###Run it:###
+### Run it: ###
 cd rd-datalogger\python
 python plotExample.py ..\DataLoggerExample
 
